@@ -32,3 +32,43 @@ This is an AI-based Resume Screening and Candidate Ranking System using Streamli
 ```bash
 git clone https://github.com/diptibangde10/RESUNE-RANKING-SCREENING-PROJECT-IN-PYTHON.git
 cd RESUNE-RANKING-SCREENING-PROJECT-IN-PYTHON
+
+```
+### Create and activate a virtual environment:
+
+python -m venv venv
+.\venv\Scripts\activate  # For Windows
+
+
+
+### Install the required libraries:
+
+pip install -r requirements.txt
+
+
+
+### Usage
+
+1. After installing the dependencies, run the app using Streamlit:
+   streamlit run app.py
+2. Open the app in the browser at http://localhost:8501.
+3. Enter the job description, upload the resumes in PDF format, and click on Rank Resumes to see the ranking based on similarity.
+
+
+
+### Folder Structure
+
+Resume_Screening_App/
+├── app.py                      ← Main Streamlit app
+├── resumes/                    ← (Optional) Store uploaded resumes
+├── requirements.txt            ← List of project dependencies
+├── README.md                  ← Project overview and instructions
+
+
+
+### Contributing
+Feel free to fork this repo and contribute by creating pull requests!
+
+### License
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
