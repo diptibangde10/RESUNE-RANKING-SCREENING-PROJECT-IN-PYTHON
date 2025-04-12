@@ -1,20 +1,20 @@
 # AI Resume Screening & Candidate Ranking System
 
-This is an AI-based Resume Screening and Candidate Ranking System using Streamlit. It evaluates the similarity between a given job description and uploaded resumes (PDF format) using **TF-IDF** and **Cosine Similarity**.
+This is an AI-based Resume Screening and Candidate Ranking System using Streamlit, which evaluates the similarity between a given job description and uploaded resumes (PDF format) using **TF-IDF** and **Cosine Similarity**.
 
 ## Features
 
-- **Job Description Input**: Users can provide the job description for screening resumes.
+- **Job Description Input**: User can provide the job description for screening resumes.
 - **Resume Upload**: Users can upload resumes in PDF format.
-- **Ranking System**: The system ranks the uploaded resumes based on their similarity to the job description using **TF-IDF** and **Cosine Similarity**.
+- **Ranking System**: Ranks the uploaded resumes based on their similarity to the job description using **TF-IDF** and **Cosine Similarity**.
 
 ## Technologies Used
 
-- **Python**: Programming language for backend logic.
-- **Streamlit**: Web framework for creating the app.
-- **PyPDF2**: For extracting text from PDF files.
+- **Python**: Programming language used for backend logic.
+- **Streamlit**: Framework used for creating the web app.
+- **PyPDF2**: Python library for extracting text from PDF files.
 - **Scikit-learn**: For performing **TF-IDF** and calculating **Cosine Similarity**.
-- **NLTK**: For natural language processing tasks like tokenization.
+- **NLTK**: Natural Language Toolkit for text processing.
 
 ## Requirements
 
